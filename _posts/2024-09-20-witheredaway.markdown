@@ -6,6 +6,11 @@ image: /images/withered-away.png
 categories: academic_project
 course: "Database Systems"
 institution: "BUET"
+video: https://youtu.be/2lR1TBinnHY
+backend: https://github.com/niananto/withered-away-back
+frontend: https://github.com/IshikaIme/withered-away-front
+supervisor: Md. Toufikuzzaman
+supervisor-link: https://tzpranto.github.io/
 ---
 Withered Away is a comprehensive management system for old homes, streamlining administrative tasks and improving service quality for elderly care facilities.  
 The system was developed using ExpressJS, Material UI, PostgreSQL, and Oracle, later adapted fully to PostgreSQL. It features modules for resident tracking, staff scheduling, and resource management.  

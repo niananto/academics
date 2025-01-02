@@ -26,6 +26,10 @@
 </head>
 
 <body>
+  <br><br>
+  <h1>
+    {{ site.name }}
+  </h1>
   <table
     style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
@@ -34,9 +38,6 @@
           style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h1>
-                {{ site.name }}
-              </h1>
               <p>I am a Software Engineer at <a href="https://www.hellozelf.com/">Zelf Technologies Inc.</a>,
                 specializing in developing robust scraping services and scalable backend systems. My work includes
                 creating advanced tools for social media data collection and engagement, utilizing expertise in
@@ -97,7 +98,8 @@
               {{post.authors}}
 
               <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <em>{{post.venue}}</em>
+              <!-- , {{ post.date | date: "%Y" }} -->
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
@@ -122,6 +124,12 @@
               {% endif %}
               <p></p>
               {{ post.excerpt }}
+              {% if post.supervisor %}
+              Supervised by <a href="{{post.supervisor-link}}">{{post.supervisor}} </a>
+              {% endif %}
+              {% if post.collaborator %}
+              and collaborated with <a href="{{post.collaborator-link}}">{{post.collaborator}}</a>
+              {% endif %}
             </td>
           </tr>
           {% endif %}
@@ -139,7 +147,7 @@
                     <h3 style="color: darkblue;">Software Engineer</h3>
                     <b><em style="color: darkgreen">[March 2024-Present]</em></b>
                     <br>
-                    Zelf Technologies Inc., <br>
+                    <a href="https://www.hellozelf.com/">Zelf Technologies Inc.</a> <br>
                     Brooklyn, New York <br>
                     - Developed Scraping Services for collecting data from Social Media (Hashtag, Search, Profile,
                     Notifications etc.) and Engagement Services<br>
@@ -152,16 +160,21 @@
                     <h3 style="color: darkblue;">Research Assistant</h3>
                     <b><em style="color: darkgreen">[July 2022-June 2024]</em></b>
                     <br>
-                    Institute of Water and Flood Management (IWFM), BUET, <br>
+                    <a href="https://iwfm.buet.ac.bd/site/">Institute of Water and Flood Management (IWFM), BUET</a>
+                    <br>
                     Dhaka, Bangladesh <br>
                     - Worked in a study on Early Warning System for River Erosion-prone areas<br>
-                    - Developed the complete Web Application from ground up with React, Express, Firebase & PostgreSQL
+                    - Developed the complete Web Application from ground up with React, Express, Firebase &
+                    PostgreSQL<br>
+                    - <a
+                      href="https://iwfm.buet.ac.bd/site/reserach_interfunded/development-of-web-application-of-early-warning-system-for-river-erosion-ews-re/">Details
+                      of the Project</a>
                   </li>
                   <li style="margin-bottom: 10px;">
                     <h3 style="color: darkblue;">Machine Learning Intern</h3>
                     <b><em style="color: darkgreen">[May 2023-June 2023]</em></b>
                     <br>
-                    Era-InfoTech Ltd, <br>
+                    <a href="https://www.erainfotechbd.com/">Era-InfoTech Ltd</a> <br>
                     Dhaka, Bangladesh <br>
                     - Worked on analysis of real-life business data applying Natural Language Processing techniques,
                     Unsupervised Learning i.e. K-means clustering
@@ -170,16 +183,17 @@
                     <h3 style="color: darkblue;">Physics & ICT Instructor</h3>
                     <b><em style="color: darkgreen">[January 2019-Present]</em></b>
                     <br>
-                    Udvash Academic & Admission Care, <br>
-                    Dhaka, Bangladesh <br>
+                    <a href="https://www.udvash.com/">Udvash Academic & Admission Care</a> <br>
+                    All over Bangladesh <br>
                     - Conducted classes regularly on Secondary & Higher Secondary Physics and ICT<br>
-                    - Got recognized as one of their distinguished teacher
+                    - Got recognized as one of their distinguished teachers
                   </li>
                 </ul>
               </div>
             </td>
           </tr>
         </table>
+
         <table
           style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
@@ -209,35 +223,38 @@
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
               {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
               {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              {% if post.backend %}
+              <a href="{{post.backend}}">backend</a> /
               {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              {% if post.frontend %}
+              <a href="{{post.frontend}}">frontend</a> /
+              {% endif %}
+              {% if post.scraper %}
+              <a href="{{post.scraper}}">scraper</a> /
+              {% endif %}
+              {% if post.game %}
+              <a href="{{post.game}}">play now</a> /
+              {% endif %}
+              {% if post.resources %}
+              <a href="{{post.resources}}">resources</a> /
+              {% endif %}
+              {% if post.estimation %}
+              <a href="{{post.estimation}}">estimation</a> /
+              {% endif %}
+              {% if post.presentation %}
+              <a href="{{post.presentation}}">presentation</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
+              {% if post.supervisor %}
+              Supervised by <a href="{{post.supervisor-link}}">{{post.supervisor}} </a>
+              {% endif %}
             </td>
           </tr>
           {% endif %}
@@ -276,20 +293,8 @@
               {% if post.paper %}
               <a href="{{post.paper}}">paper</a> /
               {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
@@ -299,6 +304,9 @@
               {% endif %}
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.game %}
+              <a href="{{post.game}}">play now</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -323,10 +331,8 @@
                     Dhaka, Bangladesh <br>
                     - CGPA: 3.91/4.00<br><br>
                     - <b>Notable Courses:</b> Machine Learning; Microprocessors, Microcontrollers & Embedded Systems;
-                    Compiler; Computer Networking; Simulation
-                    & Modeling; Computer Security; Computer Graphics; Artificial Intelligence; Computer Architecture;
-                    Operating Systems; Data Structures & Algo‑
-                    rithms
+                    Compiler; Computer Networking; Simulation & Modeling; Computer Security; Computer Graphics;
+                    Artificial Intelligence; Computer Architecture; Operating Systems; Data Structures & Algorithms
                   </li>
                   <li style="margin-bottom: 10px;">
                     <h3 style="color: darkblue;">Higher Secondary School Certificate (HSC)

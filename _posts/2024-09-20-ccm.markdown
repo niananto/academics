@@ -6,6 +6,10 @@ image: /images/creative-production-management.png
 categories: academic_project
 course: "Information and System Design"
 institution: "BUET"
+resources: https://github.com/niananto/Creative-Production-Management
+estimation: https://github.com/niananto/Creative-Production-Management
+supervisor: Dr. Anindya Iqbal
+supervisor-link: https://cse.buet.ac.bd/faculty/faculty_detail/anindyaiqbal
 ---
 Creative Production Management is a production management system designed for creative agencies to streamline workflows and resource allocation.  
 The system incorporates features like resource management and estimation modules, built with BPMN, Mock UI, ERD, Sequence Diagrams, and State Diagrams. The project emphasizes effective information and system design, providing agencies with a reliable tool to enhance their operational efficiency.  

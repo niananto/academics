@@ -7,4 +7,4 @@ categories: competitions
 institution: "Zelf Technologies Inc."
 rank: "Champion"
 ---
-Secured first place among 400 contestants in Zelf Hackathon 1.0, demonstrating technical excellence and problem-solving capabilities.
+Secured first place among 400 contestants in Zelf Hackathon 1.0, demonstrating technical excellence and problem-solving capabilities. Got hired as a Software Engineer as a consequence.

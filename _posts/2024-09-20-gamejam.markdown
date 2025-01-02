@@ -6,5 +6,6 @@ image: /images/gamejam-2023.png
 categories: competitions
 institution: "IEEE CS, BUET"
 rank: "5th"
+game: https://asteroids-gamejam.netlify.app/
 ---
 Developed "Asteroids", a level-based game using p5.js following the theme "It's not supposed to do that". The game secured 5th place among 68 participating teams.

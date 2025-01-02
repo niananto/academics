@@ -6,6 +6,10 @@ image: /images/red-light-green-light.png
 categories: academic_project
 course: "Microprocessors and Microcontrollers"
 institution: "BUET"
+video: https://youtu.be/9mWLkRmKQEA
+code: https://github.com/niananto/red-light-green-light
+supervisor: Md. Masum Mushfiq
+supervisor-link: https://cse.buet.ac.bd/faculty/faculty_detail/mushfiq
 ---
 Red Light Green Light is a traffic light controller system designed to adapt dynamically to traffic conditions and train detection.  
 This project, developed as part of a Microprocessors and Microcontrollers course, utilizes Arduino and sensors to monitor traffic flow and prioritize train crossings. The adaptive system minimizes congestion and improves traffic flow in real-time scenarios.  

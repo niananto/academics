@@ -6,6 +6,11 @@ image: /images/maps-n-bags.png
 categories: academic_project
 course: "Software Development"
 institution: "BUET"
+frontend: https://github.com/maps-n-bag/maps-n-bags-frontend
+backend: https://github.com/maps-n-bag/maps-n-bags-backend
+scraper: https://github.com/maps-n-bag/maps-n-bags-scraper
+supervisor: Tahmid Hasan
+supervisor-link: https://tahmid04.github.io/
 ---
 Maps 'n Bags is an itinerary planning system providing trip suggestions, travel tracking, budget management, and travel diaries.  
 Developed as part of a software development project, this tool integrates modern web technologies including ExpressJS, Material UI, PostgreSQL, Firebase, and Selenium for scraping. It aims to simplify travel management with an all-in-one solution for users.  

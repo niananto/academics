@@ -8,8 +8,11 @@ course: "BUET"
 authors: "<strong>Md Nazmul Islam Ananto</strong>, Shamit Fatin"
 venue: "Undergraduate Thesis. Submitted to NAACL 25"
 # subtitle: "Leveraging LLMs for Geo-Spatial Reasoning"
+supervisor: Dr. Mohammed Eunus Ali
+supervisor-link: https://faculty.buet.ac.bd/eali
+collaborator: Dr. Md Rizwan Parvez
+collaborator-link: https://faculty.buet.ac.bd/rparvez
 ---
-COMPASS is a framework designed to leverage Large Language Models (LLMs) for geo-spatial reasoning, enabling the discovery and synthesis of popular paths based on user-defined constraints.  
-Under the supervision of [Prof. Mohammed Eunus Ali](https://faculty.buet.ac.bd/eali) and [Dr. Md Rizwan Parvez](https://faculty.buet.ac.bd/rparvez), this research tackles the limitations of traditional geo-spatial algorithms by utilizing the spatial reasoning capabilities of LLMs. 
+This study tackles the limitations of traditional geo-spatial algorithms by utilizing the spatial reasoning capabilities of LLMs. 
 The project employs a two-stage approach: first, identifying paths from existing geo-spatial data, and second, synthesizing novel paths that adhere to constraints such as distance, popularity, and accessibility. COMPASS demonstrates superior performance compared to traditional methods, addressing challenges in dynamic pathfinding scenarios.  
 The insights gained from this project showcase the transformative potential of LLMs in real-world applications beyond language tasks. This work has been submitted to NAACL 2025 for peer review. Stay tuned for updates and potential open-source contributions!
