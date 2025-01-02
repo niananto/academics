@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Creative Production Management: A Production System for Agencies"
+date:   March 2023
+image: /images/creative-production-management.png
+categories: academic_project
+course: "Information and System Design"
+institution: "BUET"
+---
+Creative Production Management is a production management system designed for creative agencies to streamline workflows and resource allocation.  
+The system incorporates features like resource management and estimation modules, built with BPMN, Mock UI, ERD, Sequence Diagrams, and State Diagrams. The project emphasizes effective information and system design, providing agencies with a reliable tool to enhance their operational efficiency.  
+Key contributions include system architecture design and functional prototype development, showcasing skills in system analysis and practical implementation.
