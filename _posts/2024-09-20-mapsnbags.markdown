@@ -6,9 +6,8 @@ image: /images/maps-n-bags.png
 categories: academic_project
 course: "Software Development"
 institution: "BUET"
-frontend: https://github.com/maps-n-bag/maps-n-bags-frontend
-backend: https://github.com/maps-n-bag/maps-n-bags-backend
-scraper: https://github.com/maps-n-bag/maps-n-bags-scraper
+live-demo: https://maps-n-bags.netlify.app/
+code: https://github.com/orgs/maps-n-bag/repositories
 supervisor: Tahmid Hasan
 supervisor-link: https://tahmid04.github.io/
 ---
