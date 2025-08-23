@@ -5,7 +5,7 @@ date:   June 2024
 image: /images/compass-routes.png
 categories: research
 course: "BUET"
-authors: "<strong>Md Nazmul Islam Ananto</strong>, Shamit Fatin"
+authors: "<strong>Nazmul Islam Ananto</strong>, Shamit Fatin"
 venue: "Undergraduate Thesis. Targeting AAAI 2026"
 # subtitle: "Leveraging LLMs for Geo-Spatial Reasoning"
 supervisor: Dr. Mohammed Eunus Ali
@@ -15,4 +15,4 @@ collaborator-link: https://faculty.buet.ac.bd/rparvez
 ---
 This study tackles the limitations of traditional geo-spatial algorithms by utilizing the spatial reasoning capabilities of LLMs. 
 The project employs a two-stage approach: first, identifying paths from existing geo-spatial data, and second, synthesizing novel paths that adhere to constraints such as distance, popularity, and accessibility. COMPASS demonstrates superior performance compared to traditional methods, addressing challenges in dynamic pathfinding scenarios.  
-The insights gained from this project showcase the transformative potential of LLMs in real-world applications beyond language tasks. We are targeting submission to AAAI 2026. Stay tuned for updates and potential open-source contributions!
+The insights gained from this project showcase the transformative potential of LLMs in real-world applications beyond language tasks. We evaluated GPT-4o, GPT-o3-mini and Llama 3.1 8B. Currently targeting submission to AAAI 2026. Stay tuned for updates and potential open-source contributions!
