@@ -1,0 +1,455 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-E00L9PT3V9');
+  </script>
+  <!-- Goat Counter -->
+  <script data-goatcounter="https://niananto.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+  <title>{{ site.name }}</title>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
+
+</head>
+
+<body>
+  <br><br>
+  <h1>
+    {{ site.name }}
+  </h1>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+              <p>I am a Software Engineer at <a href="https://www.hellozelf.com/">Zelf AI</a>, where I
+                  build data pipelines that handle millions of social media analytics
+                APIs. I craft automation solutions for hundreds of businesses and collaborate with retail
+                partners and cross-functional teams on key features.</p>
+              <p>I hold a BSc in Computer Science and Engineering from BUET with a CGPA of&nbsp;3.91 and recognition in the Dean&rsquo;s List. My
+                undergraduate thesis, "COMPASS: Geo-Spatial Reasoning for Popular Path Query using LLMs," thrives on proposing a two-stage
+                approach for route extraction and synthesis solving the "Popular Path Problem".</p>
+              <p>With a strong foundation in Software Development, Natural Language Processing, and Computer Security, 
+                I have contributed to impactful research projects, including early warning systems for river erosion and AI-driven business insights. 
+                Additionally, I have led academic projects such as automated trading systems and comprehensive itinerary planning tools, showcasing both technical depth and practical problem-solving capabilities.</p>
+              <p style="text-align:center">
+                <a target="_blank" href="mailto:{{site.footer-links.email}}"> Email</a> &nbsp;/&nbsp;
+                <a href={{site.footer-links.github}}>GitHub</a> &nbsp;/&nbsp;
+                <!-- <a href="https://scholar.google.com/citations?user=wf8iK0sAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp; -->
+                <a href={{site.footer-links.linkedin}}> LinkedIn </a> &nbsp;/&nbsp;
+                <a href={{site.footer-links.resume}}> Resume </a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src={{site.avatar}}>
+            </td>
+          </tr>
+        </table>
+
+        <table id="education"
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Education</h2>
+              <div style="margin-bottom: 10px;">
+                <ul>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Bachelor of Science (BSc. Engg.) in Computer Science and Engineering
+                    </h3><b> <em style="color: darkgreen">[2019-2024]</em></b>
+                    <br>
+                    Bangladesh University of Engineering and Technology (BUET), <br>
+                    Dhaka, Bangladesh <br>
+                    - CGPA: 3.91/4.00 (Dean's List Award)<br><br>
+                    - <b>Notable Courses:</b> Machine Learning; Microprocessors, Microcontrollers & Embedded Systems;
+                    Compiler; Computer Networking; Simulation & Modeling; Computer Security; Computer Graphics;
+                    Artificial Intelligence; Computer Architecture; Operating Systems; Data Structures & Algorithms
+                  </li>
+<!--                   <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Higher Secondary School Certificate (HSC)
+                    </h3> <b> <em style="color: darkgreen">[2016-2018]</em></b>
+                    <br>
+                    Notre Dame College (NDC), <br>
+                    Dhaka, Bangladesh
+                    <br>
+                    - GPA: 5.00/5.00
+                    <br>
+                  </li>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Secondary School Certificate (SSC)
+                    </h3><b> <em style="color: darkgreen">[2006-2016]</em></b>
+                    <br>
+                    Ideal School and College, <br>
+                    Dhaka, Bangladesh
+                    <br>
+                    - GPA: 5.00/5.00
+                    <br>
+                  </li> -->
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Research</h2>
+              <p>
+                <!-- I'm interested in machine learning, deep learning, natural language processing and large language models. -->
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'research' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              {% if post.subtitle %}
+              <small>{{post.subtitle}}</small>
+              <br>
+              {% endif %}
+              {{post.authors}}
+
+              <br>
+              <em>{{post.venue}}</em>
+              <!-- , {{ post.date | date: "%Y" }} -->
+              <br>
+              {% if post.arxiv %}
+              <a href="{{post.arxiv}}">arxiv</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.youtube %}
+              <a href="{{post.youtube}}">youtube</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+              {% if post.supervisor %}
+              Supervised by <a href="{{post.supervisor-link}}">{{post.supervisor}} </a>
+              {% endif %}
+              {% if post.collaborator %}
+              and collaborated with <a href="{{post.collaborator-link}}">{{post.collaborator}}</a>
+              {% endif %}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <table id="work-experience"
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Work Experience</h2>
+              <div style="margin-bottom: 10px;">
+                <ul>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Software Engineer</h3>
+                    <b><em style="color: darkgreen">[March 2024-Present]</em></b>
+                    <br>
+                    <a href="https://www.hellozelf.com/">Zelf AI</a> <br>
+                    Brooklyn, New York <br>
+                    - Built data pipelines collecting and processing 80M+ daily video analytics from social media public APIs<br>
+                    - Developed automation tools serving 100+ enterprise clients<br>
+                    - Collaborated with retail partners and cross-functional teams for critical features<br>
+                    - Tech Stack: Python, Selenium, Playwright, Appium, Burp Suite, Mitmproxy, ADB, GCP, Docker, GitHub Actions, Terraform
+                  </li>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Software Consultant</h3>
+                    <b><em style="color: darkgreen">[June 2025-Present]</em></b>
+                    <br>
+                    <a href="https://www.shottify.org/">Shottify</a> <br>
+                    Dhaka, Bangladesh <br>
+                    - Conducted knowledge sharing sessions on Information Retrieval and Social Media Analysi<br>
+                    - Developed News Aggregator for renowned international news portals including New York Times, Reuters- [<a href="https://github.com/niananto/online-news-scrapers" target="_blank">See Here</a>]<br>
+                    - Building AI agents to identify fact check on current affairs
+                  </li>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Research Assistant</h3>
+                    <b><em style="color: darkgreen">[July 2022-June 2024]</em></b>
+                    <br>
+                    <a href="https://iwfm.buet.ac.bd/site/">Institute of Water and Flood Management (IWFM), BUET</a>
+                    <br>
+                    Dhaka, Bangladesh <br>
+                    - Practical implementation of an Early Warning System for River Erosion prone areas<br>
+                    - Published in Frontiers: A Riverbank Erosion Early Warning System<br>
+                    - Led the Full-stack development team using React, Express, Firebase & PostgreSQL
+                    - <a href="https://iwfm.buet.ac.bd/site/reserach_interfunded/development-of-web-application-of-early-warning-system-for-river-erosion-ews-re/">Details of the Project</a>
+                  </li>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Machine Learning Intern</h3>
+                    <b><em style="color: darkgreen">[May 2023-June 2023]</em></b>
+                    <br>
+                    <a href="https://www.erainfotechbd.com/">Era-InfoTech Ltd</a> <br>
+                    Dhaka, Bangladesh <br>
+                    - Worked on analysis of real-life business data applying Natural Language Processing techniques,
+                    Unsupervised Learning i.e. K-means clustering
+                  </li>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Physics & ICT Instructor</h3>
+                    <b><em style="color: darkgreen">[January 2019-Present]</em></b>
+                    <br>
+                    <a href="https://www.udvash.com/">Udvash Academic & Admission Care</a> <br>
+                    - Conducted classes regularly on Secondary & Higher Secondary Physics and ICT<br>
+                    - Got recognized as one of their distinguished teachers
+                  </li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Academic Projects</h2>
+              <!-- <p>Besides my work on the RealSense depth sensors and the publications above, a sampling of my publicly
+                disclosed work -->
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'academic_project' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              <em>{{post.course}}, {{post.institution}} in {{ post.date | date: "%Y" }}</em>
+
+              <br>
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.backend %}
+              <a href="{{post.backend}}">backend</a> /
+              {% endif %}
+              {% if post.frontend %}
+              <a href="{{post.frontend}}">frontend</a> /
+              {% endif %}
+              {% if post.scraper %}
+              <a href="{{post.scraper}}">scraper</a> /
+              {% endif %}
+              {% if post.game %}
+              <a href="{{post.game}}">play now</a> /
+              {% endif %}
+              {% if post.resources %}
+              <a href="{{post.resources}}">resources</a> /
+              {% endif %}
+              {% if post.estimation %}
+              <a href="{{post.estimation}}">estimation</a> /
+              {% endif %}
+              {% if post.presentation %}
+              <a href="{{post.presentation}}">presentation</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+              {% if post.supervisor %}
+              Supervised by <a href="{{post.supervisor-link}}">{{post.supervisor}} </a>
+              {% endif %}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Competitions</h2>
+              <!-- <p> These include coursework, side projects and unpublished research work. -->
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'competitions' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3> <em>({{post.rank}})</em>
+              <br>
+              {{ post.date | date: "%B, %Y" }}
+
+              <br>
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.game %}
+              <a href="{{post.game}}">play now</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <table id="Extra Curricular Activities"
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Leadership</h2>
+              <div style="margin-bottom: 10px;">
+                <ul>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Director of Marketing & Communication</h3>
+                    <b><em style="color: darkgreen">[June 2023-April 2024]</em></b>
+                    <br>
+                    <a href="https://www.linkedin.com/company/buetsec/" target="_blank">BUET Cyber Security Club</a>, <br>
+                    Dhaka, Bangladesh <br>
+                    - Promoted and organized cybersecurity related events, seminars and both intra and inter-university
+                    Capture The Flag (CTF) competitions multiple times through-out the tenure
+                  </li>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Organizer</h3>
+                    <b><em style="color: darkgreen">[June-July 2023]</em></b>
+                    <br>
+                    <a href="https://buet-cse-fest-2023-main-mauve.vercel.app/" target="_blank">BUET CSE Fest 2023</a>, <br>
+                    Dhaka, Bangladesh <br>
+                    - A proud part of the organizing team of BUET CSE Fest 2023, the 2023 edition of the annual departmental festival consisting inter-university competitions such as hackathon, programming contest, deep learning competition, CTF competition and extra-curricular events such as cultural program, dance mob, treasure hunt, indoor and outdoor games.
+                  </li>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">President of Writing & Publication</h3>
+                    <b><em style="color: darkgreen">[February 2018-February 2019]</em></b>
+                    <br>
+                    <a href="https://ndc.edu.bd/club/news/list/27" target="_blank">Notre Dame English Club</a>, <br>
+                    Dhaka, Bangladesh <br>
+                    - Published multiple yearly, half-yearly and event specific magazines as an editor<br>
+                    - Organized 3 intra & inter-college English Carnivals along with other seminars, wall-magazine
+                    contests & workshops
+                  </li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <table id="Mentoring"
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Mentoring</h2>
+              <p>As a mentor, I have guided and supported individuals in their personal and professional development, helping them to achieve their goals and reach their full potential.<br>
+              I have mentored students in various subjects, including computer science, mathematics etc.</p>
+              <div style="margin-bottom: 10px;">
+                <ul>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Nuzaima Mahmood</h3>
+                    <b><em style="color: darkgreen">[2020]</em></b><br>
+                    European School of Economics, London <br>
+                    - Got her through the Computer Science Courses including DSA, OOP, DBMS
+                  </li>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">Sazid Hasan</h3>
+                    <b><em style="color: darkgreen">[2021-2023]</em></b><br>
+                    - Helped him get admission into BUET Biomedical Engineering Department
+                    </li>
+                  <li style="margin-bottom: 10px;">
+                    <h3 style="color: darkblue;">UDVASH</h3>
+                    <b><em style="color: darkgreen">[January 2019-Present]</em></b>
+                    <br>
+                    - Conducted 1000+ classes teaching High School Physics, Mathematics and ICT<br>
+                    - Mentored over 200 students for their Higher Secondary and Secondary Board Examinations
+                  </li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:center;font-size:small;">
+                Thanks to <a target="_blank" style="font-size:small;" href="https://leonidk.com/">Leonid</a> for
+                implementing <a target="_blank" style="font-size:small;" href="https://jonbarron.info">Jon</a>'s design
+                in <a target="_blank" style="font-size:small;" href="https://jekyllrb.com/">Jekyll</a>.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
