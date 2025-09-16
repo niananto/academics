@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "A riverbank erosion early warning system (EWS-RE) for braided river: a case of the Brahmaputra–Jamuna"
+date:   May 2025
+image: /images/ews-re.jpg
+categories: research
+course: "BUET"
+authors: "Shampa, Muktadir, Nejhum, Md. Majurul, Anup , <strong>Nazmul Islam Ananto</strong> Aungon, Showvik , Mohammad Muddassir"
+venue: "Frontiers in Earth Science"
+# subtitle: "Leveraging LLMs for Geo-Spatial Reasoning"
+# supervisor: Dr. Mohammed Eunus Ali
+# supervisor-link: https://scholar.google.com/citations?user=wf8iK0sAAAAJ&hl=en
+# collaborator: Dr. Md Rizwan Parvez
+# collaborator-link: https://scholar.google.com/citations?hl=en&user=KhC8rtcAAAAJ
+---
+This study addresses riverbank erosion in the Brahmaputra-Jamuna River, where 60,000 people are displaced annually, by developing a physics-based early warning system achieving 88% spatial accuracy and 88% sensitivity. I led the full-stack development of the EWS-RE web portal (www.ews-re.com) using React.js, Express.js, Firebase, and Google Maps JavaScript API to transform complex 2D hydro-morphological predictions into intuitive, real-time hazard maps. The platform integrates GloFAS seasonal forecasts with six decades of historical data, delivering color-coded erosion warnings across 250 km of river reaches through three core modules: location search, annual erosion alerts, and water level-based risk assessment. Field testing demonstrated 70% overall accuracy in detecting erosion-prone zones. Published in Frontiers in Earth Science, this work demonstrates how modern web technologies can democratize access to critical environmental predictions, bridging advanced geospatial modeling with practical disaster risk reduction for vulnerable communities.

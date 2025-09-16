@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "COMPASS: A Chain-of-Thought Prompting Approach toward Geo-Spatial Reasoning for Popular Path Discovery and Synthesis using LLMs"
-date:   June 2024
+date:   September 2025
 image: /images/compass-routes.png
 categories: research
 course: "BUET"
 authors: "<strong>Nazmul Islam Ananto</strong>, Shamit Fatin"
-# venue: "Undergraduate Thesis"
+venue: "Undergraduate Thesis"
 # subtitle: "Leveraging LLMs for Geo-Spatial Reasoning"
 supervisor: Dr. Mohammed Eunus Ali
 supervisor-link: https://scholar.google.com/citations?user=wf8iK0sAAAAJ&hl=en
