@@ -51,8 +51,10 @@
                 APIs. I craft automation solutions for hundreds of businesses, develop social media analytics tools and collaborate with retail
                 partners and cross-functional teams on key features.</p>
               <p>I also contribute in interdisciplinary works. One of the recent work with IWFM, BUET where I led the Software Team, 
-                got published in Frontiers. My professional affiliation extends to roles such as Software Consultant as well. 
-                I try to give back to the community by mentoring people in their academic and professional journeys.
+                got published in <a href="https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1570577/full" target="_blank">
+                  Frontiers</a>. My professional affiliation extends to roles such as Software Consultant as well. 
+                I try to give back to the community by <a href="https://youtube.com/playlist?list=PLEwzGLbD27m3vn5pT8hYPDFh-ERQuQA6n&si=atf_QmyB3-jhcNSP" target="_blank">
+                  mentoring</a> people in their academic and professional journeys.
               </p>
               <p style="text-align:center">
                 <a target="_blank" href="mailto:{{site.footer-links.email}}"> Email</a> &nbsp;/&nbsp;
@@ -143,11 +145,14 @@
               {{post.authors}}
 
               <br>
-              <em>{{post.venue}}</em>
+              <em>{{post.venue}}</em> /
               <!-- , {{ post.date | date: "%Y" }} -->
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
+              {% endif %}
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /

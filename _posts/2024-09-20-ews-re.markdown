@@ -5,8 +5,10 @@ date:   May 2025
 image: /images/ews-re.jpg
 categories: research
 course: "BUET"
-authors: "Shampa, Muktadir, Nejhum, Md. Majurul, Anup , <strong>Nazmul Islam Ananto</strong> Aungon, Showvik , Mohammad Muddassir"
+authors: "Shampa, Muktadir, Nejhum, Md. Majurul, Anup, <strong>Nazmul Islam Ananto</strong>, Aungon, Showvik, Mohammad Muddassir"
 venue: "Frontiers in Earth Science"
+website: https://www.ews-re.com
+paper: https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1570577/full
 # subtitle: "Leveraging LLMs for Geo-Spatial Reasoning"
 # supervisor: Dr. Mohammed Eunus Ali
 # supervisor-link: https://scholar.google.com/citations?user=wf8iK0sAAAAJ&hl=en
