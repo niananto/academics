@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "ToFu: Exploiting and Fuzzing the LLM-Orchestrator–Tool Trust Boundary"
+date:   October 2026
+image: /images/tofu.png
+categories: research
+course: "PSU"
+authors: "<strong>Md Nazmul Islam Ananto</strong>, Pierre Prevost-Avenel, Colin Smith, Kyungtae Kim, Taegyu Kim, Arslan Khan"
+venue: "Preprint, under submission at FSE 2027"
+arxiv: https://arxiv.org/pdf/2610.13651v1
+# code:
+# supervisor: Dr. Arslan Khan
+---
+ToFu is a semantics-aware fuzzing framework for LLM agent tools. It derives security checks from tool metadata and a corpus of 74 CWE-guided sanitizers, targeting the trust boundary between an LLM orchestrator and the tools it calls.
+Applied to 118 open-source MCP servers, ToFu found 253 manually verified vulnerabilities, including path traversal, SSRF, command injection, log injection, and data exfiltration. Crash-based fuzzers detect none of them.
